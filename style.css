@@ -1,0 +1,25 @@
+button{
+	font-size: 20px;
+	font-weight: bold;
+	border: 0px;
+	color: white;
+	background-color: #1877f2;
+	padding: 1rem 2rem;
+	margin-top: 300px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+button:hover{
+	background-image: linear-gradient(90deg,
+		red 0%,
+		green 50%,
+		#2bff88 75%,
+		#fa8bff 100%);
+	color: black;
+	animation: slide 7s linear infinite;
+}
+@keyframes slide{
+	100%{
+		background-position: 20rem;
+	}
+}
